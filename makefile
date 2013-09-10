@@ -1,5 +1,5 @@
 prefix=/usr/local
-tp :
+tp : tp.c
 	cc tp.c -o tp
 
 .PHONY : install
